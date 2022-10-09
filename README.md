@@ -9,4 +9,20 @@ analyst nanodegree program. The archive contains basic tweet data (tweet ID, tim
 etc.) for all 5000+ of their tweets as they stood on August 1, 2017. The data was cleaned to 
 remove redundant data. However, not all of the desired data is present in Udacity's dataset, so I also use the Twitter API to gather additional data.
 
+During the wrangling process, only tweets having ratings and images are used. After the data gathering, data cleaning and overall wrangling process, I went on to focus on answering questions. The following questions, I aimed to answer include:
 
+- What dog breed is the most loved?
+- What dog breeds have the highest mean score?
+- What source produces the most tweets?
+- What dogs are generally the most loved?
+
+
+## Requirements
+- Jupyter Notebook
+- Pandas
+- Numpy
+- Requests
+- Tweepy
+- json
+- Matplotlib
+- Twitter API
